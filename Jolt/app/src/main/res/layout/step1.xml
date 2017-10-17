@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/lin_lay"
+    android:orientation="vertical"
+    android:background="@drawable/register_back"
+    >
+
+
+
+
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/edit3"
+        android:layout_alignBottom="@+id/edit3"
+        android:layout_alignLeft="@+id/text8"
+        android:layout_alignStart="@+id/text8" />
+
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College Roll No. :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="15sp"
+
+         />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="250sp"
+        />
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aadhar Card No. :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="340sp"
+        />
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="15sp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="420sp"
+
+        android:text="STEP  1 / 4"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:hint="Enter your Name"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="60sp"
+
+         />
+
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:hint="eg. 15CSUXXX"
+        android:layout_marginLeft="180sp"
+        android:layout_marginTop="150sp"
+        />
+
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:inputType="phone"
+        android:hint="Enter your number"
+        android:layout_marginLeft="180sp"
+        android:layout_marginTop="240sp"/>
+
+
+    <EditText
+        android:id="@+id/edit6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:hint="Enter your aadhar no."
+        android:layout_marginLeft="180sp"
+        android:layout_marginTop="330sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/lin_lay"
+    android:background="@drawable/register_back"
+    >
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College Id Photo :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="40sp"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEP  3 / 4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="400sp"/>
+
+    <ImageView
+        android:id="@+id/imagecollege"
+        android:layout_width="200sp"
+        android:layout_height="250sp"
+        android:layout_marginLeft="85sp"
+        android:layout_marginTop="110sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload"
+        android:text="Select Photo"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="190sp"
+        android:layout_marginTop="28sp"/>
+
+
+</RelativeLayout>

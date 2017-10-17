@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_back">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_book"
+        android:text="BOOK"
+        android:textStyle="bold"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="200sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_cancel"
+        android:text="Cancel"
+        android:textStyle="bold"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="300sp" />
+
+
+</RelativeLayout>

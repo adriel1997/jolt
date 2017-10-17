@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "471829128980",
+    "firebase_url": "https://jolt-225c6.firebaseio.com",
+    "project_id": "jolt-225c6",
+    "storage_bucket": "jolt-225c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471829128980:android:6b8925cebf09d015",
+        "android_client_info": {
+          "package_name": "com.example.anantmehra.jolt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471829128980-8hd8f6sm43an17054lugv6fuus4l1hho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anantmehra.jolt",
+            "certificate_hash": "2aed3de0e47918920a5e12b11a5013c35d6fd3f0"
+          }
+        },
+        {
+          "client_id": "471829128980-ilecg78mumr4qkcu4u0fd59iadi3qe5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATucJ0z5tLBWlHM6kn-x1BoPYhJCTMwmk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471829128980-ilecg78mumr4qkcu4u0fd59iadi3qe5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/lin_lay"
+    android:orientation="vertical"
+    android:background="@drawable/register_back">
+
+
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email id :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="110sp"
+        />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password. :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="200sp"
+        />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="290sp"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEP  2 / 4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="380sp"/>
+
+    <EditText
+        android:id="@+id/edit7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:hint="Enter your email- id"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="100dp"
+       />
+
+    <EditText
+        android:id="@+id/edit8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:hint="Choose your password"
+        android:layout_marginLeft="130dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="190dp"
+        />
+
+    <EditText
+        android:id="@+id/edit9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:inputType="textPassword"
+        android:hint="Confirm password"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="280dp"
+        />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="125sp"
+        android:layout_marginTop="15sp"
+        />
+
+
+</RelativeLayout>
